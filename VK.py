@@ -10,8 +10,8 @@ from pprint import pprint
 class VKPhoto:
 
     def profile_photo():
-        user_id = '18427084'
-        token = '1450adf2eb49746210b5cccdca5c3971b99df739d6b111017278b29778a00eee1f4cf350f17436ef9f88b'
+        user_id = ''
+        token = ''
         URL = 'http://api.vk.com/method/photos.get'
         params = {
             'owner_id': user_id,
