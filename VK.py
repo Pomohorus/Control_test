@@ -40,7 +40,7 @@ class VKPhoto:
                     photos['height'] = size['height']
                     photos['width'] = size['width']
                     photos['url'] = size['url']
-            every_photo.append(photos)
+            every_photo.append([photos['name'], photos['url']])
             photos = {'height': '0', 'width': '0'}
         return every_photo
 
